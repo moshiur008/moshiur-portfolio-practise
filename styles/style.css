@@ -297,7 +297,8 @@ footer h2.footer-title {
   margin-right: 24px;
 }
 
-.footer-contact input,
+.footer-contact input[type="text"],
+.footer-contact input[type="email"],
 .footer-contact textarea {
   width: 461px;
   border: none;
@@ -307,4 +308,5 @@ footer h2.footer-title {
   font-size: 16px;
   line-height: 28px;
   border-radius: 5px;
+  color: #757575;
 }
