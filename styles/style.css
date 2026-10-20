@@ -38,6 +38,20 @@ button.btn {
   color: #fd6e0a;
 }
 
+.section-title h2 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.section-title p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
 /*nav styles */
 
 nav {
@@ -111,4 +125,37 @@ ul.main-menu li a {
 .banner-img img {
   display: block;
   max-width: 585px;
+}
+
+/* about section  */
+
+#about {
+  padding: 130px 0;
+}
+
+.about-container {
+  width: 71%;
+  max-width: 1140px;
+  padding: 130px 155px;
+  background-color: #fff8f3;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info-box p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #757575;
+}
+
+.about-info-box h3 {
+  color: #474747;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
 }
