@@ -204,3 +204,56 @@ ul.main-menu li a {
   line-height: 28px;
   color: #757575;
 }
+
+/* resume section  */
+#resume {
+  padding: 130px 0;
+}
+
+.resume-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 113px auto 0;
+  display: flex;
+  gap: 24px;
+}
+
+.resume-container hr {
+  margin: 30px 0;
+  border: 1px solid #d1d1d1;
+}
+
+#resume .resume-btn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.resume-container h2.resume-title {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #474747;
+}
+
+.resume-container .resume-card {
+  max-width: 511px;
+  margin-right: 30px;
+}
+
+h2.resume-card-title {
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+p.resume-card-info {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+p.resume-card-text {
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
+}
