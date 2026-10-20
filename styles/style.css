@@ -145,6 +145,7 @@ ul.main-menu li a {
   background-color: #fff8f3;
   text-align: center;
   margin: 0 auto;
+  border-radius: 5px;
 }
 
 .about-info {
@@ -185,6 +186,7 @@ ul.main-menu li a {
 .skill-card {
   padding: 30px;
   box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
 }
 
 .skill-card img {
