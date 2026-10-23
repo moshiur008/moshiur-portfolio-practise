@@ -7,6 +7,9 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+img {
+  max-width: 100%;
+}
 
 header {
   padding-top: 50px;
@@ -309,4 +312,124 @@ footer h2.footer-title {
   line-height: 28px;
   border-radius: 5px;
   color: #757575;
+}
+
+/* responsive  */
+
+@media screen and (max-width: 1200px) {
+  nav,
+  #banner {
+    width: 90%;
+  }
+
+  #banner {
+    margin: 100px auto 0;
+  }
+  .banner-img img {
+    max-width: 100%;
+  }
+
+  .banner-content h1 {
+    font-size: 60px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  header {
+    padding-top: 50px;
+    background: url(../images/header_bg.png), #fff8f3;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+  .about-container {
+    width: 90%;
+    padding: 75px 0;
+  }
+
+  .about-container .section-title,
+  .skills-container .section-title {
+    max-width: 650px;
+  }
+
+  .skills-container,
+  .resume-container,
+  .footer-container {
+    width: 90%;
+  }
+
+  .skill-box {
+    flex-wrap: wrap;
+  }
+
+  .skill-card {
+    max-width: 48%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #banner {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .banner-content {
+    text-align: center;
+  }
+
+  .btns {
+    justify-content: center;
+  }
+
+  .resume-container {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .resume-container .resume-card,
+  .resume-container hr {
+    max-width: 650px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-info {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .skill-box {
+    flex-direction: column;
+  }
+  .skill-card {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 592px) {
+  nav {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  #about,
+  #skills {
+    padding-top: 65px;
+  }
+
+  #resume,
+  footer {
+    padding: 65px 0;
+  }
+  .footer-contact input[type="text"],
+  .footer-contact input[type="email"],
+  .footer-contact textarea {
+    width: 400px;
+    max-width: 100%;
+  }
 }
