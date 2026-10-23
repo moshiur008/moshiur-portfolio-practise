@@ -398,6 +398,16 @@ footer h2.footer-title {
 }
 
 @media screen and (max-width: 768px) {
+  #about,
+  #skills {
+    padding-top: 65px;
+  }
+
+  #resume,
+  footer {
+    padding: 65px 0;
+  }
+
   .about-info {
     flex-direction: column;
     gap: 40px;
@@ -425,15 +435,6 @@ footer h2.footer-title {
     width: 60%;
   }
 
-  #about,
-  #skills {
-    padding-top: 65px;
-  }
-
-  #resume,
-  footer {
-    padding: 65px 0;
-  }
   .footer-contact input[type="text"],
   .footer-contact input[type="email"],
   .footer-contact textarea {
